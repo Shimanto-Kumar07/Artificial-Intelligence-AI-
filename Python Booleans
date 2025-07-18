@@ -1,0 +1,95 @@
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+print("\n")
+
+a = 200
+b = 33
+
+if b > a:
+    print("B is greater than A")
+else:
+    print("B is greater than A")
+
+print("\n")
+
+'''Evaluate values and variables'''
+print(bool("Hello"))
+print(bool(15))
+
+print('\n')
+
+'''Example'''
+
+x = "Hello"
+y = 15
+
+print(bool(x))
+print(bool(y))
+
+print("\n")
+
+'''Most Values are True
+Almost any value is evaluated to True if it has some sort of content.
+
+Any string is True, except empty strings.
+
+Any number is True, except 0.
+
+Any list, tuple, set, and dictionary are True, except empty ones.'''
+
+print(bool("abc"))
+print(bool(123))
+print(bool(["apple", "cherry", "banana"]))
+
+print('\n')
+
+'''Some Values are False'''
+
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
+
+print('\n')
+
+class myclass():
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+print('\n')
+
+'''Function can return a boolean'''
+
+def myFunction():
+   return True
+
+print(myFunction())
+
+print('\n')
+
+#Example
+#Print "YES!" if the function returns True, otherwise print "NO!":
+
+def fuction():
+   return True
+
+if fuction():
+   print("YES")
+else:
+   print("NO")
+
+print("\n")
+
+"""Example
+Check if an object is an integer or not:"""
+
+x = 200
+print(isinstance(x, int))
