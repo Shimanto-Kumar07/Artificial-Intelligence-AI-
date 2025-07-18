@@ -1,0 +1,9 @@
+str = '''My name is Shimanto Kumar.
+I'm learning python. 
+It's fun to learn though.
+'''
+
+print(str)
+
+for character in str:
+    print(character)
